@@ -1,0 +1,23 @@
+body {
+  background-color: #221833;
+  color: #c9c9c9;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,61 @@
+.todo-item-container {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.26) -5px 5px 10px;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: #352547;
+    margin-bottom: 20px;
+}
+
+.todo-item-container h3 {
+    font-size: x-large;
+    text-align: start;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.btns {
+    width: 100%;
+    float: left;
+    text-align: end;
+    font-weight: 600;
+}
+
+.completed-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: transparent;
+    border: rgb(95, 219, 61) 2px solid;
+    color: #c9c9c9;
+    padding: 5px 13px;
+    margin: 0 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.26) -5px 5px 10px;
+}
+
+.remove-btn {
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #c9c9c9;
+    border:  rgb(216, 34, 34) 2px solid;
+    padding: 5px 13px;
+    margin: 0 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.26) -5px 5px 10px;
+    transition: .3s;
+}
+
+.completed-btn:hover {
+    border: rgb(174, 224, 160) 2px solid;
+    transition: .3s;
+}
+
+.remove-btn:hover {
+    border:  rgb(218, 146, 146) 2px solid;
+    transition: .3s;
+}
